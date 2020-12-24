@@ -1,0 +1,96 @@
+.customize-control select {
+    width: 100%;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450;
+    color: white;
+}
+
+
+.hiddenSection {
+    display: none !important;
+}
+
+.navbar-brand h1 a {
+    font-size: 30px;
+    color: #333;
+    display: none !important;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 80%;
+    border-radius: 20px;
+    border-color: white;
+    text-align: center;
+    color: white;
+	background:transparent;
+}
+
+input:focus, input, textarea.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+button, input, select, textarea:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+input[type=submit] {
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    text-align: center;
+    background: #673AB7;
+    padding: 10px;
+    color: white;
+}
+input[type=submit]:hover {
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    text-align: center;
+    background: #000000;
+    padding: 10px;
+    color: white;
+}
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    display: none;
+}
+
+.content-wrapper {
+    padding: 0px;
+    margin: 0px;
+    overflow-wrap: break-word;
+    background-color: #fff;
+}
+
+.main-content {
+    padding-bottom: 0px;
+}
+
+#content .wpb_alert p:last-child, #content .wpb_text_column :last-child, #content .wpb_text_column p:last-child, .wpb_alert p:last-child, .wpb_text_column :last-child, .wpb_text_column p:last-child {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900;
+    color: white;
+}
